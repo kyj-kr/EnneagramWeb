@@ -1,0 +1,71 @@
+table tr.m_over td span.quest {
+  font-weight: bold;
+}
+table tr.m_over .toggle {
+  background-color: #FFF;
+}
+
+#quest_list {
+  border: none;
+  width: 100%;
+  border-collapse: collapse;
+}
+#quest_list tr {
+  vertical-align: middle;
+  border-bottom: 1px dashed #00AEEF;
+}
+#quest_list tr td {
+  padding: 8px;
+}
+#quest_list tr.m_over {
+  background-color: #F1F1F1;
+}
+#quest_list .q_style1 {
+  padding: 2px 8px;
+  color: #222;
+  font-weight: bold;
+}
+#quest_list .q_style2 {
+  color: #BE1E2D;
+  font-style: italic;
+}
+#quest_list .toggle {
+  background-color: #EFEFEF;
+  border-radius: 4px;
+  border: 1px solid #D0D0D0;
+  overflow: auto;
+  float: left;
+  margin-left: 8px;
+}
+#quest_list .toggle label {
+  float: left;
+}
+#quest_list .toggle label span {
+  text-align: center;
+  padding: 3px 8px;
+  display: block;
+  cursor: pointer;
+}
+#quest_list div[q_val="1"] .q_selected {
+  background-color: #0099ff;
+  color: #FFF;
+}
+#quest_list div[q_val="0"] .q_selected {
+  background-color: #BE1E2D;
+  color: #FFF;
+}
+
+#result-wrap {
+  padding: 0 10px;
+  display: flex;
+  flex: 1 1 auto;
+}
+#result-wrap > div {
+  width: 100%;
+  background-color: #f1f1f1;
+  height: 200px;
+  border: 1px solid #D0D0D0;
+}
+#result-wrap > div + div {
+  margin-left: 1em;
+}
