@@ -1,5 +1,5 @@
 <?php
   $response = array();
-  $response["flag"] = 0;
+  $response["flag"] = 1;
   echo json_encode($response);
 ?>
